@@ -1,0 +1,41 @@
+.cont-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.cont-img{
+    margin-top: 1%;
+    margin-left: 10%;
+    border-radius: 40px;
+    
+
+}
+.cont-writtig{
+     width: 30%;
+    margin-right: 19%;
+    margin-top: 1%;
+}
+.h{
+    font-size: 3.4em;
+    zoom: 120%;
+    line-height: 1.2;
+}
+.p{
+   margin-top: 10%; 
+}
+.con-btn{
+    width: 20%;
+    background-color:black;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+.cont-grd{
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+.cont-grd img{
+    width: 25%;
+}

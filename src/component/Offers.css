@@ -1,0 +1,88 @@
+.off-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.offers{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hidding{
+    margin-top: 15%;
+    margin-left: -1%;
+ margin-bottom: 10%;
+ font-size: 5rem;
+ zoom: 100%;
+}
+.off-img{
+    margin-left: -2%;
+}
+.food-name{
+
+    margin-top: 3%;
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+.button{ 
+    width: 45%;
+    border-radius: 10px;
+    padding: 2%;
+   margin: 0 2px 2px;
+}
+.op{
+    margin-top: 2%;
+    width: 40%;
+    line-height: 30px;
+}
+.price{
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.offers2{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 19%;
+}
+.off-img2{
+    margin-left: -5%;
+    width: 53%;
+}
+@media(max-width:500px){
+    .off-conatiner{
+        flex-direction: column;
+    }
+    .hidding{
+        margin-top: 1%;
+        margin-left: 0%;
+        font-size: 2.7em;
+    }
+    .off-img{
+        width: 110%;
+    }
+    .food-name{
+    
+        margin-top: 3%;
+        font-size: 2.2rem;
+        margin-bottom: 1%;
+    }
+    
+    
+    .op{
+        margin-top: 2%;
+        width: 100%;
+        line-height: 30px;
+    }
+    .off-img2{
+        margin-left: -13%;
+        width: 110%;
+    }
+}
